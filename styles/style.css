@@ -323,6 +323,7 @@
 /* ------------------- STEP ------------------- */
 .step {
   width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -344,6 +345,7 @@
 
 /* ------------------- FOOTER ------------------- */
 .footer {
+  color: white;
   background-color: #1f1f1f;
   box-sizing: border-box;
   padding: 60px 80px;
@@ -352,8 +354,6 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  gap: 80px;
-  margin-bottom: 100px;
 }
 
 .footer__column {
@@ -364,6 +364,7 @@
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -373,6 +374,7 @@
 
 .footer__column-heading {
   color: white;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -405,5 +407,5 @@
 
 .footer__copyright {
   color: white;
-  margin: 0;
+  margin-top: 100px;
 }
